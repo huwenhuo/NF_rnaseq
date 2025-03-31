@@ -1,0 +1,8 @@
+sample,fastq_1,fastq_2,strandedness
+UMUC1_rep1,../results/UMUC1_rep1_1.fastq.gz,../results/UMUC1_rep1_2.fastq.gz,auto
+UMUC1_rep2,../results/UMUC1_rep2_1.fastq.gz,../results/UMUC1_rep2_2.fastq.gz,auto
+UMUC1_rep2,../results/UMUC1_rep2_1.fastq.gz,../results/UMUC1_rep2_2.fastq.gz,auto
+FOXA1KO_clone9_rep1,../results/FOXA1KO_clone9_rep1_1.fastq.gz,../results/FOXA1KO_clone9_rep1_2.fastq.gz,auto
+FOXA1KO_clone9_rep2,../results/FOXA1KO_clone9_rep2_1.fastq.gz,../results/FOXA1KO_clone9_rep2_2.fastq.gz,auto
+FOXA1KO_clone10_rep1,../results/FOXA1KO_clone10_rep1_1.fastq.gz,../results/FOXA1KO_clone10_rep1_2.fastq.gz,auto
+FOXA1KO_clone10_rep2,../results/FOXA1KO_clone10_rep2_1.fastq.gz,../results/FOXA1KO_clone10_rep2_2.fastq.gz,auto
