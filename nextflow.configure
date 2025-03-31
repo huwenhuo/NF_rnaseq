@@ -1,0 +1,22 @@
+params {
+  // Required parameters
+  input          = "samplesheet.csv"
+  outdir         = "./results"
+
+  // Genome configuration
+  genome         = 'GRCh38'  // Must match nf-core's naming convention
+  igenomes_base  = '/home/whu78/igenomes'
+  igenomes_ignore = true     // Force use of local igenomes (skip auto-download)
+}
+
+// Load nf-core/rnaseq's default config (but let local params override)
+profiles {
+  docker {
+    includeConfig 'https://raw.githubusercontent.com/nf-core/rnaseq/master/conf/base.config'
+    docker.enabled = true
+  }
+  singularity {
+    includeConfig 'https://raw.githubusercontent.com/nf-core/rnaseq/master/conf/base.config'
+    singularity.enabled = true
+  }
+}
